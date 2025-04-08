@@ -1,0 +1,98 @@
+/* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, sans-serif;
+  color: white;
+  position: relative;
+  }
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: -20px;
+  right: -50px;
+  max-width: 200px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d96bb958-4e6c-4ce0-9447-fbe226fbbecf/djfh3ey-386794db-c6dd-4226-958a-56890aa806ef.png') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #4a3563;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+/* Result */
+#result {
+  color:#4a3563 ;
+    font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  text-shadow: #000000 0 0 12px, #000000 0 0 25px, #000000 0 0 35px, #000000 0 0 45px;
+ }
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+   h1 {
+    font-size: 1.4rem;
+  }
+
+  #resultado {
+    font-size: 1rem;
+  }
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
